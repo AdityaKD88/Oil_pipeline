@@ -12,24 +12,15 @@
         {% endblock css %} 
     </head>
     <body>
-            <nav class="navbar navbar-expand-sm navbar-light bg-primary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Oil Spills & Pipeline Accidents</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarID">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>    
-                            <a class="nav-link active" aria-current="page" href="/cause">Cause</a>    
-                            <a class="nav-link active" aria-current="page" href="/lost">Loss</a>    
-                            <a class="nav-link active" aria-current="page" href="/pipeline">Pipeline</a>    
-                            <a class="nav-link active" aria-current="page" href="/liquid">Liquid</a>    
-                        </div>
-                    </div>
-                </div>
-            </nav>
+        <div id="header">
+            <ul id="navigation">
+        <a href="/" class="button-1">Home</a>
+        <a href="/cause" class="button-1">Cause</a>
+        <a href="/lost" class="button-1">Loss</a>
+        <a href="/pipeline" class="button-1">Pipeline</a>
+        <a href="/liquid" class="button-1">Liquid</a>
+            </ul>
+        </div>
             {% block body %}{% endblock body %}
             {% block js %}{% endblock js %}
     </body>
