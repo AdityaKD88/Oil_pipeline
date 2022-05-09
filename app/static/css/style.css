@@ -91,3 +91,12 @@ body {
   padding-top: 70px;
   padding-left: 120px;
 }
+
+.image{
+  padding: 22%;
+}
+
+.image img{
+  width: 800px;
+  height: 300px;
+}

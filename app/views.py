@@ -145,4 +145,4 @@ def liquid():
   return render_template('liquid.html',graph12=graph12,graph13=graph13,graph14=graph14,graph15=graph15)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='127.0.0.1', port=8000,debug=True)
