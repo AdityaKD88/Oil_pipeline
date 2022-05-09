@@ -1,6 +1,7 @@
 # Oil Spills & Pipeline Accidents Analysis
 
 - This project shows the analysis of various oil spills & oil pipeline accidents.
+- The dataset is taken from https://www.kaggle.com/datasets/usdot/pipeline-accidents
 
 ![image](https://user-images.githubusercontent.com/90971914/167385574-10bca412-c8f8-4164-8753-fe4578eb428d.png)
 
