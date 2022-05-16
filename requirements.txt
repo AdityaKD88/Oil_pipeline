@@ -4,5 +4,4 @@ plotly
 seaborn
 pandas
 numpy
-sklearn
-json
+scikit-learn
